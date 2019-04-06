@@ -17,3 +17,5 @@ HEAD^ 上一个 HEAD^^ 上两个 HEAD~100 上一百个
 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 git log --pretty=oneline 抽出注释行
 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+
+add new line
