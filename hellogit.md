@@ -9,3 +9,13 @@ hello
 第二天内容小结
 要随时掌握工作区的状态，使用git status命令。
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+
+
+第三天内容小结
+HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
+HEAD^ 上一个 HEAD^^ 上两个 HEAD~100 上一百个
+
+穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
+git log --pretty=oneline 抽出注释行
+
+要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
